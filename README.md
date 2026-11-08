@@ -1,10 +1,6 @@
 Taufik Bahri, or Opik to most people. I'm an AI product engineer in Bogor, Indonesia, and I build AI products end to end, from the interface to the agents behind it. Thirteen years shipping for the web, nine of them leading frontend teams.
 
-![pik creating a project from the api-hono-starter template](assets/pik-demo.gif)
-
-<sub>[pik](https://github.com/opikdev/pik) creating a project from a starter. A real recording, made with <a href="assets/pik.tape">this VHS script</a>.</sub>
-
-### Things I've built
+### Products
 
 <table>
   <tr>
@@ -12,30 +8,39 @@ Taufik Bahri, or Opik to most people. I'm an AI product engineer in Bogor, Indon
       <a href="https://opik.dev/work/orbit/"><img src="assets/orbit.jpg" alt="An Orbit chat: the orchestrator hands two tasks to the Analyst and Writer agents in parallel"></a>
       <br><b><a href="https://opik.dev/work/orbit/">Orbit</a></b>
       <br>AI agent platform for teams, specced and built in 17 days
+      <br><sub>Case study · in testing</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://opik.dev/work/tickerlab/"><img src="assets/tickerlab.jpg" alt="The TickerLab market page: index cards, a market map and market breadth"></a>
       <br><b><a href="https://opik.dev/work/tickerlab/">TickerLab</a></b>
-      <br>Indonesian stock research, with strategies tested on data they never saw · <a href="https://tickerlab.opik.dev">live</a>
+      <br>Indonesian stock research, with strategies tested on unseen data
+      <br><sub>Live · free · <a href="https://tickerlab.opik.dev">open it</a></sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://github.com/opikdev/davis"><img src="assets/davis.jpg" alt="A Davis page built from the Seattle weather dataset, with totals, charts and a table"></a>
       <br><b><a href="https://github.com/opikdev/davis">Davis</a></b>
-      <br>Local data workspace: ask questions, chart the answers, keep your files on your computer
+      <br>Local data workspace: ask questions, chart the answers
+      <br><sub>Open source · desktop app</sub>
     </td>
   </tr>
 </table>
 
-### Open source
+**In progress:** [Taffrail](https://github.com/opikdev/taffrail), a Kubernetes desktop console built around live logs across many pods, in Rust.
 
-- [pik](https://github.com/opikdev/pik): CLI that creates projects from agent-ready starter templates. `brew install opikdev/tap/pik`
-- [starters](https://github.com/opikdev/starters): the templates. Hono and Go APIs, and MCP servers in TypeScript and Python
-- [skills](https://github.com/opikdev/skills): standards for agents on code, backend, UI, docs, git and reviews. `npx skills add opikdev/skills`
-- [agent-harness](https://github.com/opikdev/agent-harness): project map, skills and enforced checks for a repo you already have
+### Developer tools
 
-### Now building
+Open source tools for starting and running projects with coding agents.
 
-[Taffrail](https://github.com/opikdev/taffrail): a read-first Kubernetes desktop console built around live logs across many pods, in Rust. Not released yet.
+| Project | What it does | Get it |
+|---|---|---|
+| [pik](https://github.com/opikdev/pik) | Creates projects from agent-ready starter templates | `brew install opikdev/tap/pik` |
+| [starters](https://github.com/opikdev/starters) | The templates: Hono and Go APIs, MCP servers in TypeScript and Python | `pik list` |
+| [skills](https://github.com/opikdev/skills) | Standards for agents: code, backend, UI, docs, git, reviews | `npx skills add opikdev/skills` |
+| [agent-harness](https://github.com/opikdev/agent-harness) | Project map, skills and enforced checks for an existing repo | `pik add agent-harness` |
+
+![pik creating a project from the api-hono-starter template](assets/pik-demo.gif)
+
+<sub>pik creating a project from a starter. A real recording, made with <a href="assets/pik.tape">this VHS script</a>.</sub>
 
 ### Recently shipped
 
