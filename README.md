@@ -26,13 +26,16 @@ Taufik Bahri, or Opik to most people. I'm an AI product engineer in Bogor, Indon
   </tr>
 </table>
 
-### Tooling for coding agents
+### Open source
 
 - [pik](https://github.com/opikdev/pik): CLI that creates projects from agent-ready starter templates. `brew install opikdev/tap/pik`
 - [starters](https://github.com/opikdev/starters): the templates. Hono and Go APIs, and MCP servers in TypeScript and Python
 - [skills](https://github.com/opikdev/skills): standards for agents on code, backend, UI, docs, git and reviews. `npx skills add opikdev/skills`
 - [agent-harness](https://github.com/opikdev/agent-harness): project map, skills and enforced checks for a repo you already have
-- [Taffrail](https://github.com/opikdev/taffrail): read-first Kubernetes console for live logs across many pods, in Rust (early)
+
+### Now building
+
+[Taffrail](https://github.com/opikdev/taffrail): a read-first Kubernetes desktop console built around live logs across many pods, in Rust. Not released yet.
 
 ### Recently shipped
 
