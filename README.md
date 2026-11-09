@@ -45,7 +45,7 @@ Open source tools for starting and running projects with coding agents.
 ### Recently shipped
 
 <!-- releases:start -->
-- [pik v0.3.0](https://github.com/opikdev/pik/releases/tag/v0.3.0) · Nov 8, 2026
+- [pik v0.4.0](https://github.com/opikdev/pik/releases/tag/v0.4.0) · Nov 9, 2026
 - [davis v0.2.1](https://github.com/opikdev/davis/releases/tag/v0.2.1) · Nov 8, 2026
 - [starters v0.1.1](https://github.com/opikdev/starters/releases/tag/v0.1.1) · Nov 8, 2026
 <!-- releases:end -->
